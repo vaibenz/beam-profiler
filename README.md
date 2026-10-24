@@ -22,7 +22,7 @@ D4σ is the primary width because it is defined for any beam shape. If the
 Gaussian fit disagrees with it by more than 5 percent, the beam has side lobes
 or higher order content and the script says so.
 
-## Repository layout
+## Where things live
 
 ```
 beamprofiler/   moments.py   ISO 11146 second moments
@@ -41,7 +41,7 @@ tests/          pytest suite
 docs/           hardware.md  bill of materials, calibration and laser safety
 ```
 
-## Quick start
+## Try it
 
 ```bash
 pip install -r requirements.txt
@@ -96,3 +96,7 @@ comparison of the measured waist against the 4M²λf/(πD) estimate.
 
 ISO 11146-1:2021, Lasers and laser related equipment: test methods for laser
 beam widths, divergence angles and beam propagation ratios.
+
+---
+
+If something here is unclear, broken, or just wrong, feel free to open an issue. I'm always happy to chat about it.
